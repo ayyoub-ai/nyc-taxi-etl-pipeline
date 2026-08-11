@@ -1,0 +1,18 @@
+[project]
+name = "nyc-taxi-pipeline"
+version = "0.1.0"
+description = "ETL Pipeline for NYC Taxi Data using Docker and PostgreSQL"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.0",
+    "sqlalchemy>=2.0.0",
+    "psycopg2-binary>=2.9.0",
+    "click>=8.1.0",
+    "tqdm>=4.66.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pgcli>=3.5.0",
+    "jupyter>=1.0.0",
+]

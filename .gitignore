@@ -1,0 +1,6 @@
+*parquet
+_pycache_/
+.venv/
+ny_taxi_postgres_data/
+.env
+uv.lock 
